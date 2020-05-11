@@ -40,7 +40,8 @@
   </div>
   </body>
   <script>
-
+    var cors = new EnableCorsAttribute("*", "*", "*");
+    config.EnableCors(cors);
     function myFunction() {
 
 
